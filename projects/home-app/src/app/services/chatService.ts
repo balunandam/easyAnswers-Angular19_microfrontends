@@ -12,7 +12,7 @@ export class OpenaiService {
 
     constructor() {
         this.openai = new OpenAI({
-            apiKey: environment.apiKey, // Replace with your API key
+            apiKey: '', // Replace with your API key
             dangerouslyAllowBrowser: true,
         });
     }
