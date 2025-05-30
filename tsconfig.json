@@ -15,6 +15,9 @@
     "paths": {
       "reusable-library": [
         "./dist/reusable-library"
+      ],
+      "shared": [
+        "./dist/shared"
       ]
     },
     "importHelpers": true,

@@ -9,6 +9,13 @@ const routes: Routes = [
         return m.AuthenticationModule
       } ),
   },
+  {
+    path: 'home',
+    loadChildren: () =>
+      import('../../../home-app/src/app/modules/home/home-routing.module').then((m) =>{
+        return m.HomeRoutingModule
+      } ),
+  },
 ];
 
 @NgModule({
